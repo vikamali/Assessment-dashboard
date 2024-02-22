@@ -1,0 +1,65 @@
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .left-buttons {
+    display: flex;
+  }
+  
+  .right-buttons {
+    display: flex;
+  }
+  
+  .white-button, .refresh-button {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .refresh-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .refresh-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .white-button:hover {
+    background-color: #f2f2f2;
+  }
+  
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Header row background color */
+  }
+  
+  /* Alternating row colors */
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Even row background color */
+  }
+  
+  /* Add bottom border to table cells */
+  th, td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Remove bottom border from last row */
+  tr:last-child td {
+    border-bottom: none;
+  }
+  
